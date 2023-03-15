@@ -33,7 +33,6 @@ function getPINs(observed) {
         console.log('final variation of the digit', variations)
     }
 
-    console.log('final result:', variations)
     return variations;
   }
 

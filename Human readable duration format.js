@@ -1,36 +1,30 @@
 function formatSeconds(seconds){
-        if (seconds == 0) return "";
         if(seconds == 1) return seconds + " second";
         return seconds + " seconds";
 }
 
 
 function formatMinutes(minutes){
-    if (minutes == 0) return "";
     if(minutes == 1) return minutes + " minute";
     return minutes + " minutes";
 }
 
 function formatHours(hours){
-    if (hours == 0) return "";
     if (hours == 1) return hours + " hour";
     return hours + " hours";
 }
 
 function formatDays(days){
-    if(days == 0) return "";
     if(days == 1) return days + " day";
     return days + " days";
 }
 
 function formatYears(years){
-    if(years == 0) return "";
     if(years == 1 ) return years + " year";
     return years + " years";
 }
 
 function formatDuration (seconds) {
-    console.clear();
     if(seconds == 0) return "now";
 
     let result = ""
